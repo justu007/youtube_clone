@@ -4,6 +4,7 @@ body{
     padding-top: 55px;
     padding-left: 210px;
     padding-right: 10px;
+    overscroll-behavior-y: contain;
 }
 p{
     font-family:roboto,arial;

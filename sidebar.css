@@ -8,6 +8,7 @@
     flex-direction: column;
     overflow-y: scroll;
     scrollbar-width:thin; 
+    overscroll-behavior-y: contain;
 }
 
 .sidebar-link{
@@ -132,8 +133,9 @@
     display: flex;
     flex-direction: row;
     margin-right: 5px;
-    margin-left: 10px;
+    margin-left: 20px;
     column-gap: 5px;
+    font-size: 12px;
 }
 .last{
     font-size: 10px;

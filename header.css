@@ -1,7 +1,7 @@
 .header{
 height: 55px;
 display: flex;
-flex-direction: column;
+flex-direction: row;
 
 position: fixed;
 left:0;
@@ -10,6 +10,7 @@ top: 0;
 margin-bottom: 20px;
 background-color: white;
 z-index: 100;
+
 
 }
 .head-section1{
@@ -59,6 +60,7 @@ padding-left: 12px;
     width: 80px;
 
 }
+
 
 .middle-section{
 display: flex;
@@ -175,6 +177,7 @@ align-items: center;
     justify-content: space-around;
     margin-right: 10px;
     flex-shrink: 0;
+
 }
 .upload{
    
